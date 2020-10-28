@@ -1,0 +1,9 @@
+5
+windows 2 32 100 100
+windows 4 64 10 52
+android 2 32 56 9
+ios 2 32 20 63
+windows 2 32 452 50
+2
+windows 2 32 500
+ios 4 32 100

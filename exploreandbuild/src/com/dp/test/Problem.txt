@@ -1,0 +1,87 @@
+[Problem Statement]
+
+Develop a pseudo-web application which would let the users help list and browse games developed for different platforms conveniently.
+
+[Minimum Requirement]
+
+— Write a functional backend and frontend in the desired tech stack(Mentioned below).
+
+— Use of the CSV Dump provided.
+
+— Implement functionality to list games on a web page.
+
+— Visually interactive responsive design listing all the games.
+
+— Submit Screenshot, Source code & Instructions.
+
+[Plus Point]
+
+— A feature to Search (via name).
+
+— Implement Sort feature (to filter through ‘score’ in ascending and descending order).
+
+— Implement pagination to display listings properly. Divide the number of listings equally on every page. Implement this on the backend.
+
+— Implement feature to sort games based on the platform.(List of PS games or any other platforms).
+
+— Add autocomplete feature to Search games conveniently.
+
+[Extra Work]
+
+— Implement a Sign-Up and Login functionality. You have to create the user-auth schema in the database for this.
+
+— Configure backend to serve API response to only registered users.
+
+— Implement a feature to favorite games. Update the listing on the page with games which are similar in details to the favorites.
+
+— Custom elegant design, fonts, and icons to make web app more user-friendly.
+
+— You may add portfolio activity comprising awesome work you have done on the web application(s).
+
+— Use your imagination and add features which would make things easier for end users.
+
+[Guide]
+
+— Games Listing CSV Dump: http://hck.re/qoicdL
+
+— Ideal Stack:
+
+Backend: Java - J2EE
+
+Frontend: HTML5, Angular JS, JavaScript, Bootstrap, JSON, CSS
+
+DB: Mysql
+
+— For icons and subtle texture:
+
+http://glyphsearch.com/
+
+http://subtlepatterns.com/thumbnail-view/
+
+http://codebeautify.org/jsonviewer
+
+http://www.flaticon.com/categories
+
+— Make sure you include content headers in your backend.
+
+HTTP Header
+
+access-control-allow-headers:Origin, X-Requested-With, Content-Type, Accept
+
+access-control-allow-methods:GET, POST, PUT
+
+access-control-allow-origin: *
+
+Mysql Structure / Data Parameters:
+
+title, platform, score, genre, editors_choice
+
+title — ‘title of the game’
+
+platform — name of the platform for which this game is designed.
+
+score — games rating score.
+
+genre — genre of the game.
+
+editors_choice — A value indicating whether this game was editor’s choice or not.
